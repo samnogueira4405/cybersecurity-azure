@@ -1,1 +1,112 @@
-o melhor site do mundo!!
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page - Tailwind CSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans antialiased">
+
+    <header class="fixed top-0 left-0 w-full bg-white/80 backdrop-blur-md shadow-sm z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-indigo-600 tracking-tight">Minha|Empresa</a>
+            <nav class="hidden md:flex space-x-8 font-medium text-gray-600">
+                <a href="#funcionalidades" class="hover:text-indigo-600 transition">Funcionalidades</a>
+                <a href="#beneficios" class="hover:text-indigo-600 transition">Benefícios</a>
+                <a href="#contacto" class="hover:text-indigo-600 transition">Contacto</a>
+            </nav>
+            <a href="#" class="bg-indigo-600 hover:bg-indigo-700 text-white px-5 py-2.5 rounded-lg font-semibold transition shadow-md shadow-indigo-100">
+                Começar Grátis
+            </a>
+        </div>
+    </header>
+
+    <section class="pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
+            <div class="flex-1 text-center md:text-left space-y-6">
+                <span class="inline-block bg-indigo-50 text-indigo-700 text-sm font-semibold px-3 py-1 rounded-full">
+                    🚀 Nova Versão 2.0 Disponível
+                </span>
+                <h1 class="text-4xl md:text-6xl font-black text-gray-900 leading-tight">
+                    Transforma o teu negócio com apenas <span class="text-indigo-600">um clique</span>.
+                </h1>
+                <p class="text-lg text-gray-600 max-w-xl mx-auto md:mx-0">
+                    A nossa plataforma ajuda equipas modernas a automatizar processos, poupar tempo e escalar os resultados de forma inteligente.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center md:justify-start gap-4 pt-2">
+                    <a href="#" class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-8 py-4 rounded-xl shadow-lg shadow-indigo-200 transition text-center">
+                        Criar Conta Gratuita
+                    </a>
+                    <a href="#" class="border border-gray-300 hover:border-gray-400 bg-white text-gray-700 font-semibold px-8 py-4 rounded-xl transition text-center">
+                        Saber Mais &rarr;
+                    </a>
+                </div>
+            </div>
+            <div class="flex-1 w-full max-w-lg md:max-w-none">
+                <div class="relative mx-auto w-full aspect-video md:aspect-square bg-gradient-to-tr from-indigo-500 to-purple-600 rounded-3xl shadow-2xl flex items-center justify-center text-white text-xl font-bold">
+                    [ Imagem da tua App / Dashboard ]
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="funcionalidades" class="py-20 bg-white border-t border-gray-100">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-gray-900">
+                    Tudo o que precisas para crescer
+                </h2>
+                <p class="text-lg text-gray-600">
+                    Ferramentas poderosas desenhadas para simplificar o teu dia a dia operacional.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-8 rounded-2xl border border-gray-100 hover:border-indigo-100 hover:shadow-xl hover:shadow-gray-100/50 transition duration-300 bg-white">
+                    <div class="w-12 h-12 bg-indigo-50 text-indigo-600 rounded-xl flex items-center justify-center font-bold text-xl mb-6">⚡</div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Velocidade Máxima</h3>
+                    <p class="text-gray-600 leading-relaxed">Processamento de dados em tempo real sem latência para que nunca percas uma oportunidade.</p>
+                </div>
+                <div class="p-8 rounded-2xl border border-gray-100 hover:border-indigo-100 hover:shadow-xl hover:shadow-gray-100/50 transition duration-300 bg-white">
+                    <div class="w-12 h-12 bg-indigo-50 text-indigo-600 rounded-xl flex items-center justify-center font-bold text-xl mb-6">🔒</div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Segurança Total</h3>
+                    <p class="text-gray-600 leading-relaxed">Encriptação de ponta a ponta que garante a total privacidade e proteção de todos os teus dados.</p>
+                </div>
+                <div class="p-8 rounded-2xl border border-gray-100 hover:border-indigo-100 hover:shadow-xl hover:shadow-gray-100/50 transition duration-300 bg-white">
+                    <div class="w-12 h-12 bg-indigo-50 text-indigo-600 rounded-xl flex items-center justify-center font-bold text-xl mb-6">📊</div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Relatórios Analíticos</h3>
+                    <p class="text-gray-600 leading-relaxed">Métricas detalhadas e relatórios visuais fáceis de partilhar com toda a equipa ou investidores.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-indigo-900 text-white text-center relative overflow-hidden">
+        <div class="max-w-4xl mx-auto px-6 relative z-10 space-y-6">
+            <h2 class="text-3xl md:text-5xl font-extrabold tracking-tight">Pronto para dar o próximo passo?</h2>
+            <p class="text-indigo-200 text-lg max-w-xl mx-auto">
+                Junta-te a mais de 10.000 profissionais que já otimizaram os seus negócios connosco.
+            </p>
+            <div class="pt-4">
+                <a href="#" class="bg-white hover:bg-gray-100 text-indigo-900 font-bold px-8 py-4 rounded-xl shadow-lg transition inline-block">
+                    Começar Agora Grátis
+                </a>
+            </div>
+        </div>
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.1)_0%,transparent_70%)]"></div>
+    </section>
+
+    <footer class="bg-gray-900 text-gray-400 py-12 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="text-lg font-bold text-white">Minha|Empresa</div>
+            <p class="text-sm">&copy; 2026 Minha|Empresa. Todos os direitos reservados.</p>
+            <div class="flex space-x-6 text-sm">
+                <a href="#" class="hover:text-white transition">Privacidade</a>
+                <a href="#" class="hover:text-white transition">Termos de Uso</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
